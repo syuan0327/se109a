@@ -1,5 +1,5 @@
 def lt(left,right):
     if left < right:
-        return true
+        return True
     else:
-        return false
+        return False
