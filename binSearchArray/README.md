@@ -9,11 +9,9 @@ function bsearch(a, o, from, to) {
         else
         {
            if(o<a[mid])
-              to=mid-1;
-              //return bsearch(a, o, 0, mid-1)
+              to=mid-1; //return bsearch(a, o, 0, mid-1)
            else//o > a[mid]
-              from=mid+1;
-              //return bsearch(a, o, mid+1, to)
+              from=mid+1; //return bsearch(a, o, mid+1, to)
         }
     }
   }
