@@ -7,14 +7,13 @@ lt函式的功能是：
 ```
 Checks if value is less than other
 ```
-程式(第一版)；
+第一版程式：
 ```
 def lt(left,right):
     if left < right:
         return true
     else:
         return false
-
 ```
 #### 二、測試
 lodash官網提供：
@@ -28,7 +27,7 @@ _.lt(3, 3);
 _.lt(3, 1);
 // => false
 ```
-測試：
+測試程式：
 ```
 from lt import lt
 
@@ -47,7 +46,7 @@ Traceback (most recent call last):
     return true
 NameError: name 'true' is not defined
 ```
-第二版(修改第一版的程式)：
+第二版程式(修改第一版的程式)：
 ```
 def lt(left,right):
     if left < right:
