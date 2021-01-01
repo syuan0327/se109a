@@ -11,4 +11,3 @@ def step_impl(context):
 @then('I get the sum')
 def step_impl(context):
     print(context.sum)
-
