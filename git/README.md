@@ -23,12 +23,12 @@
 2.git commit 
 3.git push (origin main)
 ```
-*'git add':追蹤完所有你想要追蹤的檔案
-*'git commit': 提交
-*'git commit -m "提交訊息"': 提交並寫下提交訊息
-*'git push': 將檔案上傳
+*`git add`:追蹤完所有你想要追蹤的檔案
+*`git commit`: 提交
+*`git commit -m "提交訊息"`: 提交並寫下提交訊息
+*`git push`: 將檔案上傳
 
-如果期間想查看狀態可以使用*'git status'
+如果期間想查看狀態可以使用*`git status`
 ```
 PS C:\Users\Owner\Desktop\110710520-3\hw\se109a\git\versionControl>git add -A
 PS C:\Users\Owner\Desktop\110710520-3\hw\se109a\git\versionControl>git status
