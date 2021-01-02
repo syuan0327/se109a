@@ -61,3 +61,5 @@ Feature: add two number # add.feature:1
 3 steps passed, 0 failed, 0 skipped, 0 undefined
 Took 0m0.000s
 ```
+#### 五、檔案存放規則
+<img src=''>
