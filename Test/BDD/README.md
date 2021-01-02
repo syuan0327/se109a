@@ -63,4 +63,4 @@ Feature: add two number # add.feature:1
 Took 0m0.000s
 ```
 #### 五、檔案存放規則
-<img src=''>
+<img src='https://github.com/syuan0327/se109a/blob/master/Test/BDD/pic.JPG'>
