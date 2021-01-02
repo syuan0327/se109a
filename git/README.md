@@ -5,7 +5,7 @@
 
 1.更新歷史會保存在Git，因此可以把檔案復原到以前的狀態。
 
-<img src=''>
+<img src='https://github.com/syuan0327/se109a/blob/master/git/1.JPG'>
 
 2.可以顯示編輯過內容的差異。
 
@@ -15,9 +15,9 @@
 
 1.建立一個資料夾(versionControl)，並在裡面放一個txt檔(version1.txt)
 
-<img src=''>
+<img src='https://github.com/syuan0327/se109a/blob/master/git/2.JPG'>
 
-建立好後進行以下3步，就可以成功上傳github`
+建立好後進行以下3步，就可以成功上傳github
 ```
 1.git add -A
 2.git commit 
@@ -31,7 +31,7 @@
 
 `git push`: 將檔案上傳
 
-如果期間想查看狀態可以使用`git status`
+如果期間想查看狀態可以使用`git status`：
 ```
 PS C:\Users\Owner\Desktop\110710520-3\hw\se109a\git\versionControl>git add -A
 PS C:\Users\Owner\Desktop\110710520-3\hw\se109a\git\versionControl>git status
