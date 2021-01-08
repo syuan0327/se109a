@@ -107,4 +107,4 @@ PS C:\Users\Owner\Desktop\110710520-3\hw\se109a\git\versionControl> git cm  -m "
 [master a4dbbf9] hi
  1 file changed, 1 insertion(+)
 ```
-以上就是關於Git版本控制系統的實作和筆記，還有一些實用的指令沒有一一實作，如果像要知道更多指令可以參考：[點我](https://git-scm.com/book/zh-tw/v2)
+以上就是關於Git版本控制系統的實作和筆記，還有一些實用的指令沒有一一實作，如果想要知道更多指令可以參考：[點我](https://git-scm.com/book/zh-tw/v2)
