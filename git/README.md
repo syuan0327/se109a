@@ -92,3 +92,19 @@ Date:   Fri Jan 8 11:01:17 2021 +0800
     samba
 
 ```
+最後想要分享一個我學到的好東西也就是`Git Aliases`，他可以把比較長的指令，運用別名的方式來讓我們快速打出來，
+```
+git config --global alias.cm commit
+```
+格式：
+```
+git config --global alias.別名 原指令名稱
+```
+實作：
+```
+PS C:\Users\Owner\Desktop\110710520-3\hw\se109a\git\versionControl> git add -A
+PS C:\Users\Owner\Desktop\110710520-3\hw\se109a\git\versionControl> git cm  -m "hi"
+[master a4dbbf9] hi
+ 1 file changed, 1 insertion(+)
+```
+以上就是關於Git版本控制系統的實作和筆記，還有一些實用的指令沒有一一實作，如果像要知道更多指令可以參考：[點我](https://git-scm.com/book/zh-tw/v2)
