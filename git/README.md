@@ -56,6 +56,7 @@ Changes to be committed:
         deleted:    rm.txt
 ```
 如果你想複製github的專案到自己的電腦上，可以用`git clone`：
+
 `註`：在clone前請先在電腦建立一個資料夾，才能把資料clone進去。
 
 <img src='https://github.com/syuan0327/se109a/blob/master/git/4.JPG'>
