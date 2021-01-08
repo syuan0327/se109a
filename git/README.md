@@ -43,3 +43,51 @@ Changes to be committed:
         new file:   ../2.JPG
         modified:   ../READEME.md
 ```
+移除資料的方法是用`git rm 要移除的檔案`，下一次提交時，該檔案將會消失而且不再被追蹤。
+```
+PS C:\Users\Owner\Desktop\110710520-3\hw\se109a\git\versionControl>git rm rm.txt        
+rm 'git/versionControl/rm.txt'
+PS C:\Users\Owner\Desktop\110710520-3\hw\se109a\git\versionControl> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    rm.txt
+```
+如果你想複製github的專案到自己的電腦上，可以用`git clone`：
+`註`：在clone前請先在電腦建立一個資料夾，才能把資料clone進去。
+
+<img src='https://github.com/syuan0327/se109a/blob/master/git/4.JPG'>
+圖中我建立了叫git的資料夾
+
+`註`：這裡示範的是clone自己的網址，網址處請放自己要clone的網址。
+```
+git clone https://github.com/syuan0327/se109a.git
+```
+網址位置圖：
+
+<img src='https://github.com/syuan0327/se109a/blob/master/git/3.JPG'>
+
+clone完後，可用`git log`來查看歷史
+```
+git log
+commit 3ddbd685b31e5e64459d0961f8755a48421a09ce (HEAD -> master, origin/master, origin/HEAD)
+Author: syuan <syuan.jhong1989@gmail.com>
+Date:   Fri Jan 8 11:05:24 2021 +0800
+
+    samba
+
+commit 59d5df24d2b1d794090af8b8ce8e60ea9102fe52
+Author: syuan <syuan.jhong1989@gmail.com>
+Date:   Fri Jan 8 11:02:18 2021 +0800
+
+    samba
+
+commit 2b45a27b73f41effe82cab40a8e34fb4fbaea434
+Author: syuan <syuan.jhong1989@gmail.com>
+Date:   Fri Jan 8 11:01:17 2021 +0800
+
+    samba
+
+```
