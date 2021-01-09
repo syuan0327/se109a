@@ -12,8 +12,7 @@ You can return the answer in any order.
 #### 解題思路
 題目中有提到，如果兩數加起來等於target就return兩個數。
 
-所以，首先先使用第一個迴圈尋找陣列的n1，後再使用第二個迴
-圈找n2，如果n1+n2=target的話，就return值，沒的話就繼續尋找。
+所以，首先先使用第一個迴圈尋找陣列的n1，後再使用第二個迴圈找n2，如果n1+n2=target的話，就return值，沒的話就繼續尋找。
 #### 程式
 ```
 class Solution(object):
