@@ -19,12 +19,12 @@ def pancakeSort(arr,i):
     Size=i
     while Size > 1:
         maxId = Max(arr,Size)
-        #print("maxid=",maxId)
+        print("maxid=",maxId)
         if maxId != Size-1 :
             Reverse(arr,maxId)
-            #print("arr=",arr)
+            print("arr=",arr)
             Reverse(arr,Size-1)
-            #print("arr2=",arr)
+            print("arr2=",arr)
         Size -= 1
     print("ans=",arr)
     
