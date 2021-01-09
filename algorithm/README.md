@@ -137,7 +137,7 @@ def pancakeSort(arr,i):
 ```
 這樣每一次迴圈做了三次O(n)，因為計算複雜度時不考慮係數，所以複雜度也是O(n)。因此再加上外迴圈的O(n)，總時間複雜度為O(n^2)。
 
-#### 參考資料
+## 參考資料
 pancake sort 講解：
 
 https://maxming0.github.io/2020/08/29/Pancake-Sorting/
