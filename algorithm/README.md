@@ -1,5 +1,6 @@
 # 演算法(Algorithm)
-<!-- 首先先來寫一個簡單的演算法 -->
+首先先來寫一個簡單的演算法，這個演算法是和操作都是在[leetcode](https://leetcode.com/explore/)上操作的，他寫完後會顯示時間及內存，還蠻有趣的，有興趣的可以去試看看。
+## Two Sum
 #### 題目
 ```
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
@@ -32,9 +33,9 @@ class Solution(object):
 #### 時間複雜度和空間複雜度分析
 設有 n 個數，任取兩數為 C(n取2)=n(n-1)/2， 所以時間複雜度為 O(n²) 。而此方法所需記憶體與 n 無關， 空間複雜度為 O(1)。
 
-<!-- 正式進入較難的演算法 -->
 
-#### 煎餅排序（Pancake sorting）
+接下來正式進入較難的演算法
+## 煎餅排序（Pancake sorting）
 
 指的是將大小不同的一疊煎餅按大小排序的數學問題，其中煎餅鏟子每次只能從任意位置鏟起上方全部煎餅並翻面。「煎餅數」是指給定煎餅的張數時，最壞情況下需要的最少翻面次數。煎餅排序的目標和傳統排序演算法最小化比較次數不同，因為它每次操作只允許反轉序列的字首，所以需要最小化反轉字首次數。
 
