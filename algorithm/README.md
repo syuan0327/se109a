@@ -1,5 +1,5 @@
 # 演算法(Algorithm)
-首先先來寫一個簡單的演算法，這個演算法是和操作都是在[leetcode](https://leetcode.com/explore/)上操作的，他寫完後會顯示時間及內存，還蠻有趣的，有興趣的可以去試看看。
+首先先來寫一個簡單的演算法，這個演算法是和操作都是在[leetcode](https://leetcode.com/explore/)上操作的，他寫完後會顯示計算時間及內存，還蠻有趣的，有興趣的可以去試看看。
 ## Two Sum
 #### 題目
 ```
