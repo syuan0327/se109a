@@ -25,10 +25,10 @@ class Solution(object):
 ```
 #### 提交結果
 運行時間
-<img src="">
+<img src="https://github.com/syuan0327/se109a/blob/master/algorithm/1.JPG">
 
 內存消耗
-<img src="">
+<img src="https://github.com/syuan0327/se109a/blob/master/algorithm/2.JPG">
 
 #### 時間複雜度和空間複雜度分析
 設有 n 個數，任取兩數為 C(n取2)=n(n-1)/2， 所以時間複雜度為 O(n²) 。而此方法所需記憶體與 n 無關， 空間複雜度為 O(1)。
