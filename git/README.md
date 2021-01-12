@@ -111,3 +111,107 @@ PS C:\Users\Owner\Desktop\110710520-3\hw\se109a\git\versionControl> git cm  -m "
 
 #### 心得：
 在學完Git版本控制後，讓我更了解每個指令背後的原因，本來都不知道為甚麼要使用git add -A 和 git commit，只是知道這樣打才能成功push到github。另外還學到了其他平常不知道的指令，像是git status和git log之類的指令，這些指令讓我對git又更了解了許多。從這次的學習中，突然了解一個道理，有時候我們做某件事時，不會去探究他背後的原因，這樣可能永遠不會知道做這件事背後的意義是甚麼，其實有時候提高我們的好奇心以及學習心，或許會有意想不到的收穫呢。最後我很抱歉其實我有略讀分支的部分，但因為最近報告太多，實在沒時間寫了QQ，如果我考完有時間的話，會在1/13當天晚上push上來的。
+
+## Git分支
+#### 解釋
+曾經有看到一個解釋說得很好，他說分支就像火影人者的主角鳴人會使用影分身之術去打敵人，如果打輸了不會影響本體，在做一個新的分身就好了。
+#### 實作
+`git branch`：顯示目前在這個專案有哪些分支。Git 預設會幫你設定一個名為 master 的分支，`*`表示現在正在這個分支上
+
+`git branch "名字"`：創建一個新分支。
+
+※這兩個指令很像要注意差別。
+
+```
+PS C:\Users\Owner\Desktop\110710520-3\hw\se109a\git\branchtest> git branch   
+* master
+PS C:\Users\Owner\Desktop\110710520-3\hw\se109a\git\branchtest> git branch a 
+PS C:\Users\Owner\Desktop\110710520-3\hw\se109a\git\branchtest> git branch b 
+PS C:\Users\Owner\Desktop\110710520-3\hw\se109a\git\branchtest> git branch   
+  a
+  b
+* master
+```
+`git branch -m "原名" "新名"`：分支改名
+```
+PS C:\Users\Owner\Desktop\110710520-3\hw\se109a\git\branchtest> git branch -m a happy
+PS C:\Users\Owner\Desktop\110710520-3\hw\se109a\git\branchtest> git branch   
+  b
+  happy
+* master
+```
+`git branch -d "分支名"`：刪除分支
+`git branch -D "分支名"`：強制刪除
+```
+PS C:\Users\Owner\Desktop\110710520-3\hw\se109a\git\branchtest> git branch -d happy
+Deleted branch happy (was 0992e31).
+PS C:\Users\Owner\Desktop\110710520-3\hw\se109a\git\branchtest> git branch   
+  b
+* master
+```
+`git checkout "分支名"`：切換分支
+```
+PS C:\Users\Owner\Desktop\110710520-3\hw\se109a\git\branchtest> git checkout 
+happy
+Switched to branch 'happy'
+M       git/README.md
+PS C:\Users\Owner\Desktop\110710520-3\hw\se109a\git\branchtest> git branch   
+  b
+* happy
+  master
+```
+## Git分支
+#### 解釋
+曾經有看到一個解釋說得很好，他說分支就像火影人者的主角鳴人會使用影分身之術去打敵人，如果打輸了不會影響本體，在做一個新的分身就好了。
+#### 實作
+`git branch`：顯示目前在這個專案有哪些分支。Git 預設會幫你設定一個名為 master 的分支，`*`表示現在正在這個分支上
+
+`git branch "名字"`：創建一個新分支。
+
+※這兩個指令很像要注意差別。
+
+```
+PS C:\Users\Owner\Desktop\110710520-3\hw\se109a\git\branchtest> git branch   
+* master
+PS C:\Users\Owner\Desktop\110710520-3\hw\se109a\git\branchtest> git branch a 
+PS C:\Users\Owner\Desktop\110710520-3\hw\se109a\git\branchtest> git branch b 
+PS C:\Users\Owner\Desktop\110710520-3\hw\se109a\git\branchtest> git branch   
+  a
+  b
+* master
+```
+`git branch -m "原名" "新名"`：分支改名
+```
+PS C:\Users\Owner\Desktop\110710520-3\hw\se109a\git\branchtest> git branch -m a happy
+PS C:\Users\Owner\Desktop\110710520-3\hw\se109a\git\branchtest> git branch   
+  b
+  happy
+* master
+```
+`git branch -d "分支名"`：刪除分支
+`git branch -D "分支名"`：強制刪除
+```
+PS C:\Users\Owner\Desktop\110710520-3\hw\se109a\git\branchtest> git branch -d happy
+Deleted branch happy (was 0992e31).
+PS C:\Users\Owner\Desktop\110710520-3\hw\se109a\git\branchtest> git branch   
+  b
+* master
+```
+`git checkout "分支名"`：切換分支
+```
+PS C:\Users\Owner\Desktop\110710520-3\hw\se109a\git\branchtest> git checkout 
+happy
+Switched to branch 'happy'
+M       git/README.md
+PS C:\Users\Owner\Desktop\110710520-3\hw\se109a\git\branchtest> git branch   
+  b
+* happy
+  master
+```
+
+
+
+
+
+
+
