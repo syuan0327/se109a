@@ -160,54 +160,7 @@ PS C:\Users\Owner\Desktop\110710520-3\hw\se109a\git\branchtest> git branch
 * happy
   master
 ```
-## Git分支
-#### 解釋
-曾經有看到一個解釋說得很好，他說分支就像火影人者的主角鳴人會使用影分身之術去打敵人，如果打輸了不會影響本體，在做一個新的分身就好了。
-#### 實作
-`git branch`：顯示目前在這個專案有哪些分支。Git 預設會幫你設定一個名為 master 的分支，`*`表示現在正在這個分支上
 
-`git branch "名字"`：創建一個新分支。
-
-※這兩個指令很像要注意差別。
-
-```
-PS C:\Users\Owner\Desktop\110710520-3\hw\se109a\git\branchtest> git branch   
-* master
-PS C:\Users\Owner\Desktop\110710520-3\hw\se109a\git\branchtest> git branch a 
-PS C:\Users\Owner\Desktop\110710520-3\hw\se109a\git\branchtest> git branch b 
-PS C:\Users\Owner\Desktop\110710520-3\hw\se109a\git\branchtest> git branch   
-  a
-  b
-* master
-```
-`git branch -m "原名" "新名"`：分支改名
-```
-PS C:\Users\Owner\Desktop\110710520-3\hw\se109a\git\branchtest> git branch -m a happy
-PS C:\Users\Owner\Desktop\110710520-3\hw\se109a\git\branchtest> git branch   
-  b
-  happy
-* master
-```
-`git branch -d "分支名"`：刪除分支
-`git branch -D "分支名"`：強制刪除
-```
-PS C:\Users\Owner\Desktop\110710520-3\hw\se109a\git\branchtest> git branch -d happy
-Deleted branch happy (was 0992e31).
-PS C:\Users\Owner\Desktop\110710520-3\hw\se109a\git\branchtest> git branch   
-  b
-* master
-```
-`git checkout "分支名"`：切換分支
-```
-PS C:\Users\Owner\Desktop\110710520-3\hw\se109a\git\branchtest> git checkout 
-happy
-Switched to branch 'happy'
-M       git/README.md
-PS C:\Users\Owner\Desktop\110710520-3\hw\se109a\git\branchtest> git branch   
-  b
-* happy
-  master
-```
 
 
 
