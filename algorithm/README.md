@@ -82,12 +82,13 @@ def pancakeSort(arr,i):
             #print("arr2=",arr)
         Size -= 1
     print("ans=",arr)
-    
+```
+## 撰寫測試(test.py)
+```
+from pancake_sorting import pancakeSort
 arr = [3,2,4,1]
 n = len(arr)
-#n=4
 pancakeSort(arr,n)
-
 ```
 #### 提交結果
 ```
@@ -99,13 +100,6 @@ arr2= [2, 1, 3, 4]
 arr= [2, 1, 3, 4]
 arr2= [1, 2, 3, 4]
 ans= [1, 2, 3, 4]
-```
-#### 撰寫測試(test.py)
-```
-from pancake_sorting import pancakeSort
-arr = [3,2,4,1]
-n = len(arr)
-pancakeSort(arr,n)
 ```
 #### 時間複雜度分析
 由於對時間複雜度的分析，還沒有說非常了解，所以以下的分析，是嘗試寫寫看的，如果有錯，非常歡迎指正，謝謝！
