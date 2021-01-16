@@ -92,11 +92,20 @@ pancakeSort(arr,n)
 ```
 #### 提交結果
 ```
-PS C:\Users\Owner\Desktop\110710520-3\hw\se109a\algorithm> python ./pancake_sorting.py
+PS C:\Users\Owner\Desktop\110710520-3\hw\se109a\algorithm> python ./test.py
+maxid= 2
 arr= [4, 2, 3, 1]
 arr2= [1, 3, 2, 4]
+maxid= 1
 arr= [3, 1, 2, 4]
 arr2= [2, 1, 3, 4]
+arr= [2, 1, 3, 4]
+maxid= 2
+arr= [4, 2, 3, 1]
+arr2= [1, 3, 2, 4]
+maxid= 1
+arr2= [2, 1, 3, 4]
+maxid= 0
 arr= [2, 1, 3, 4]
 arr2= [1, 2, 3, 4]
 ans= [1, 2, 3, 4]
